@@ -1,0 +1,405 @@
+{
+    "statusCode": 200,
+    "comments": "成功",
+    "mode": 0,
+    "result": {},
+    "data": {
+        "rsCode": 200,
+        "basicInfo": {
+            "hotMode": true,
+            "stdShowId": "66050ac51e59c10001881b4b",
+            "showName": "【北京】2024 陶喆 Soul Power II 世界巡回演唱会-北京站",
+            "sourceType": "SELF_BUILT_EXTERNAL_PRODUCE",
+            "originalSeatPickType": "SUPPORT_NONE",
+            "contentUrl": "https://cdn.ticketmars.com/prod/showContent/66050ac51e59c10001881b4d/content_666a853ac69db5000118f2de.content",
+            "posterUrl": "https://cdn.ticketmars.com/image/prod/20240613_62/17182569506187436.png",
+            "posterColor": "#121d64ff",
+            "venueId": "571dec000cf22ad1941ae0ba",
+            "venueName": "华熙LIVE·五棵松·场馆",
+            "venueAddress": "北京市海淀区复兴路69号",
+            "venueLat": 39.911302,
+            "venueLng": 116.28076,
+            "cityId": "1101",
+            "cityName": "北京市",
+            "onSaleShowCount": 3,
+            "showTags": [],
+            "authorizationUrl": "",
+            "minOriginalPriceInfo": {
+                "yuanNum": "380",
+                "centNum": "",
+                "suffix": "",
+                "prefix": "￥"
+            },
+            "maxOriginalPriceInfo": {
+                "yuanNum": "1380",
+                "centNum": "",
+                "suffix": "",
+                "prefix": "￥"
+            },
+            "showDate": "2024年06月28日 - 06月30日",
+            "showDuration": "以现场为准",
+            "seatPlanURL": "https://cdn.ticketmars.com/image/prod/20240412_44/17128958569661922.jpg",
+            "displayAdvance": false,
+            "venueDisplayAdvance": false,
+            "sessionDisplayAdvance": false,
+            "seatPlanDisplayAdvance": false,
+            "showType": {
+                "name": "YanChangHui"
+            },
+            "showDetailStatus": "ON_SALE",
+            "existsPrivilegePurchase": false,
+            "displayCountdownTime": true,
+            "captchaSwitch": true,
+            "captchaVerifyStartTime": 1718279940000,
+            "captchaVerifyEndTime": 1718281836000,
+            "captchaTypes": [
+                "ARITHMETIC"
+            ],
+            "tourId": "66645910a356a100017ed2b6"
+        },
+        "additionalInfo": {
+            "hasCoupon": true,
+            "hasPromo": false,
+            "hasAddPurchase": false,
+            "hasUserPromo": false,
+            "hasPCard": false,
+            "hasPriority": false,
+            "hasChannelDiscount": false,
+            "checkChannelFreeCombo": false,
+            "channelPickSeatProject": false,
+            "hasTyingSale": false
+        },
+        "descInfo": {
+            "observationInstructions": [
+                {
+                    "key": "TICKETS_AND_ADMISSION",
+                    "name": "票品及入场",
+                    "value": "本项目需实名制购票及入场，购票完成后观演人信息不可更改，须购票时填写的实名观演人携带本人有效证件验证入场",
+                    "isMarked": false,
+                    "isOrderMarked": true,
+                    "seq": 1
+                },
+                {
+                    "key": "ENTRY_TIME",
+                    "name": "入场时间",
+                    "value": "请于开始前约120分钟入场",
+                    "isMarked": false,
+                    "isOrderMarked": false,
+                    "seq": 2
+                },
+                {
+                    "key": "SHOW_DURATION",
+                    "name": "演出时长",
+                    "value": "以现场为准",
+                    "isMarked": false,
+                    "isOrderMarked": false,
+                    "seq": 3
+                },
+                {
+                    "key": "MAIN_ACTOR",
+                    "name": "主要演员(团体)",
+                    "value": "陶喆",
+                    "isMarked": false,
+                    "isOrderMarked": false,
+                    "seq": 4
+                },
+                {
+                    "key": "MINIMUM_SHOW_DURATION",
+                    "name": "最低演出时长",
+                    "value": "以现场为准",
+                    "isMarked": false,
+                    "isOrderMarked": false,
+                    "seq": 5
+                },
+                {
+                    "key": "MINIMUM_SHOW_NUMBER",
+                    "name": "最低演出曲目",
+                    "value": "以现场为准",
+                    "isMarked": false,
+                    "isOrderMarked": false,
+                    "seq": 6
+                },
+                {
+                    "key": "RESTRICTED_ITEM",
+                    "name": "禁止携带物品",
+                    "value": "由于安保和版权的原因，大多数演出、展览及比赛场所禁止携带食品、饮料、专业摄录设备、打火机等物品，请您注意现场工作人员和广播的提示，予以配合。",
+                    "isMarked": false,
+                    "isOrderMarked": false,
+                    "seq": 7
+                },
+                {
+                    "key": "LUGGAGE_DEPOSIT",
+                    "name": "物品寄存",
+                    "value": "无寄存处,请自行保管携带物品，谨防贵重物品丢失。",
+                    "isMarked": false,
+                    "isOrderMarked": false,
+                    "seq": 8
+                }
+            ],
+            "ticketInstructions": [
+                {
+                    "key": "CHILDREN_INTRODUCTION",
+                    "name": "儿童购票",
+                    "value": "儿童一律凭票入场",
+                    "isMarked": false,
+                    "isOrderMarked": false,
+                    "seq": 1
+                },
+                {
+                    "key": "REAL_NAME_PURCHASE_TICKET_INTRODUCTION",
+                    "name": "实名购票规则",
+                    "value": "一张门票对应一个证件；证件支持：身份证/护照/港澳居民来往内地通行证",
+                    "isMarked": false,
+                    "tagContent": "门票对应唯一证件(身份证/护照/港澳居民来往内地通行证)",
+                    "isOrderMarked": false,
+                    "seq": 2
+                },
+                {
+                    "key": "EXCEPTION_ORDER_INTRODUCTION",
+                    "name": "异常排单说明",
+                    "value": "对于异常订购行为，商家有权在订单成立或者生效之后取消相应订单。 异常订购行为包括但不限于以下情形： （1）通过同一ID订购超出限购张数的订单。 （2）经合理判断认为非真实消费者的下单行为，包括但不限于通过批量相同或虚构的支付账号、收货地址（包括下单时填写及最终实际收货地址）、收件人、电话号码订购超出限购张数的订单。",
+                    "isMarked": false,
+                    "isOrderMarked": false,
+                    "seq": 3
+                },
+                {
+                    "key": "LIMITATION",
+                    "name": "限购规则",
+                    "value": "每个场次限购4张/套，项目限购4张/套",
+                    "isMarked": false,
+                    "isOrderMarked": false,
+                    "seq": 4
+                },
+                {
+                    "key": "EXCHANGE_POLICY",
+                    "name": "退换政策",
+                    "value": "票品为有价证券，非普通商品，其背后承载的文化服务具有时效性，稀缺性等特征，不支持退换。",
+                    "isMarked": false,
+                    "isOrderMarked": false,
+                    "seq": 5
+                },
+                {
+                    "key": "INVOICE_INTRODUCTION",
+                    "name": "发票说明",
+                    "value": "该发票由演出主办方提供。请在演出开始前，通过【我的-客服】提交发票申请，一般演出结束后1个月内开具。",
+                    "isMarked": false,
+                    "isOrderMarked": false,
+                    "seq": 6
+                }
+            ],
+            "markedTextList": []
+        },
+        "noteInfos": [
+            {
+                "name": "支持有条件退",
+                "value": "",
+                "type": true,
+                "code": "CONDITION_REFUND",
+                "refundCfg": {
+                    "showName": "【北京】2024 陶喆 Soul Power II 世界巡回演唱会-北京站",
+                    "refundTimes": 1,
+                    "type": "SESSION_SETTING",
+                    "rateItems": [
+                        {
+                            "rate": 0.0,
+                            "sessionItems": [
+                                {
+                                    "sessionBeginTime": 1719572400000,
+                                    "sessionName": "2024-06-28 周五 19:00",
+                                    "timeRange": [
+                                        {
+                                            "left": "2024-06-13 20:00",
+                                            "right": "2024-06-15 19:59"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sessionBeginTime": 1719658800000,
+                                    "sessionName": "2024-06-29 周六 19:00",
+                                    "timeRange": [
+                                        {
+                                            "left": "2024-04-12 20:00",
+                                            "right": "2024-04-14 19:59"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sessionBeginTime": 1719745200000,
+                                    "sessionName": "2024-06-30 周日 19:00",
+                                    "timeRange": [
+                                        {
+                                            "left": "2024-04-12 20:30",
+                                            "right": "2024-04-14 20:29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "rate": 20.0,
+                            "sessionItems": [
+                                {
+                                    "sessionBeginTime": 1719658800000,
+                                    "sessionName": "2024-06-29 周六 19:00",
+                                    "timeRange": [
+                                        {
+                                            "left": "2024-04-14 20:00",
+                                            "right": "2024-04-28 19:59"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sessionBeginTime": 1719745200000,
+                                    "sessionName": "2024-06-30 周日 19:00",
+                                    "timeRange": [
+                                        {
+                                            "left": "2024-04-14 20:30",
+                                            "right": "2024-04-28 20:29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "rate": 50.0,
+                            "sessionItems": [
+                                {
+                                    "sessionBeginTime": 1719572400000,
+                                    "sessionName": "2024-06-28 周五 19:00",
+                                    "timeRange": [
+                                        {
+                                            "left": "2024-06-15 20:00",
+                                            "right": "2024-06-22 19:59"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sessionBeginTime": 1719658800000,
+                                    "sessionName": "2024-06-29 周六 19:00",
+                                    "timeRange": [
+                                        {
+                                            "left": "2024-04-28 20:00",
+                                            "right": "2024-05-29 19:59"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sessionBeginTime": 1719745200000,
+                                    "sessionName": "2024-06-30 周日 19:00",
+                                    "timeRange": [
+                                        {
+                                            "left": "2024-04-28 20:30",
+                                            "right": "2024-05-30 20:29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "实名观演",
+                "value": "一张门票对应一个证件；证件支持：身份证/护照/港澳居民来往内地通行证",
+                "type": true,
+                "code": "REAL_NAME_TICKET"
+            },
+            {
+                "name": "电子票-身份证",
+                "value": "通过身份证件，可以直接验票入场（具体以下单后票舱信息为准）",
+                "type": true,
+                "code": "ID_CARD"
+            },
+            {
+                "name": "发票说明",
+                "value": "该发票由演出主办方提供。请在演出开始前，通过【我的-客服】提交发票申请，一般演出结束后1个月内开具。",
+                "type": false,
+                "code": "BILL_APPLY"
+            }
+        ],
+        "specialNoteInfos": [
+            {
+                "name": "预售",
+                "value": "本项目部分场次正在预售，下单后无法立即为您配票。正式开票后（一般于节目举办前1-2周），票品信息（包括换票、入场方式）将陆续更新，届时您可通过订单详情页或票舱详情查看。",
+                "type": true,
+                "code": "SESSION_PART_PRESALE",
+                "desc": "部分场次为预售，待项目正式开票后为您配票"
+            }
+        ],
+        "announcement": [
+            {
+                "id": "66190bdfb39c170001577bfe",
+                "noticeId": "66190bdfb39c170001577bfe",
+                "noticeTitle": "北京 陶喆 购票须知",
+                "noticeContent": "<div data-zone-id=\"0\" data-line-index=\"0\" data-line=\"true\"><strong>温馨提示：</strong></div>\n<div data-zone-id=\"0\" data-line-index=\"1\" data-line=\"true\"><strong>1、本次演出开售时间：2024年6月6日 20:00</strong></div>\n<div data-zone-id=\"0\" data-line-index=\"2\" data-line=\"true\"><strong>2、重要提示：2024年5月30日20:30后已关闭退票通道，此次开售的门票不再享受退票权益，我们将不再接受任何退票申请，请仔细阅读票务规则，合理规划观演时间，谨慎购买。</strong></div>\n<div data-zone-id=\"0\" data-line-index=\"2\" data-line=\"true\">&nbsp;</div>\n<p style=\"text-align: center;\"><strong>购票须知</strong></p>\n<p style=\"text-align: left;\">为促进演出市场健康有序的购票行为，根据文化和旅游部公安部联合下发的《关于进一步加强大型营业性演出活动规范管理促进演出市场健康有序发展的通知》（文旅市场发(2023)96号）要求，本次演出要求实名制入场，门票不支持转赠与转售，仅支持有条件退票。【预售开始时间后的48小时内，可无条件办理退票。退票仅支持整单整退，即一个订单号下有多张票，无法拆分退票，仅支持整单中所有门票全退。预售后两周内（视售票周期决定）退票将收取20%手续费，预售两周至演出前一个月（视售票周期决定）退票将收取50%退票费，除上述时间外不再接受任何退票申请。】请务必根据个人时间及行程安排合理选择观演场次，谨慎购买。开始购票前，请仔细阅读此票务须知，若您不同意本须知中的相关条款，应当立即停止购票。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>\n<p style=\"text-align: center;\">我已知晓并同意</p>",
+                "noticeCanDelete": false,
+                "announcementUiMode": "POP_UPS",
+                "frequencyType": "FIRST",
+                "displayPages": [
+                    "TICKET_UP"
+                ],
+                "siteIds": [
+                    "6268b17853245f055f21d677",
+                    "6268b1e353245f055f21d755",
+                    "6268b1ff363f4f0a8254300d",
+                    "6268b22753245f055f21d7b5",
+                    "6268b2ed53245f055f21d865",
+                    "6268b314363f4f0a82543093",
+                    "6268b34c363f4f0a825430eb",
+                    "628394ce53245f7d227e7dfc",
+                    "65eee5832d98850001143c84",
+                    "65ef005a1e9dac0001719b1a"
+                ]
+            }
+        ],
+        "whiteTags": [],
+        "watcherReplacer": "观演",
+        "tour": {
+            "id": "66645910a356a100017ed2b6",
+            "tourName": "陶喆「Soul Power II 世界巡回演唱会」",
+            "tourPosterUrl": "https://cdn.ticketmars.com/image/prod/20240608_35/17178524188493649.jpg",
+            "shows": [
+                {
+                    "showId": "66050ac51e59c10001881b4d",
+                    "showName": "【北京】2024 陶喆 Soul Power II 世界巡回演唱会-北京站",
+                    "showDate": "06.28-06.30",
+                    "cityName": "北京站",
+                    "showStatus": "ONSALE",
+                    "existLatestSaleTime": false,
+                    "posterUrl": "https://cdn.ticketmars.com/image/prod/20240613_62/17182569506187436.png",
+                    "showStatusTag": "热销中"
+                },
+                {
+                    "showId": "65fe5496582d1e00010a426c",
+                    "showName": "【南京】陶喆 soul power II巡回演唱会-南京站",
+                    "showDate": "07.13-07.14",
+                    "cityName": "南京站",
+                    "showStatus": "PRESALE",
+                    "existLatestSaleTime": false,
+                    "posterUrl": "https://cdn.ticketmars.com/image/prod/20240613_98/17182569027028375.png",
+                    "showStatusTag": "预订中"
+                },
+                {
+                    "showId": "65fe9f2b582d1e000111a833",
+                    "showName": "【南宁】陶喆 soul power II巡回演唱会-南宁站",
+                    "showDate": "07.27-07.28",
+                    "cityName": "南宁站",
+                    "showStatus": "PRESALE",
+                    "existLatestSaleTime": false,
+                    "posterUrl": "https://cdn.ticketmars.com/image/prod/20240613_81/17182569266357369.png",
+                    "showStatusTag": "预订中"
+                },
+                {
+                    "showId": "66597aacfdc1b70001201cfe",
+                    "showName": "【天津】2024 陶喆 Soul Power II 世界巡回演唱会—天津站",
+                    "showDate": "08.10-08.11",
+                    "cityName": "天津站",
+                    "showStatus": "PRESALE",
+                    "existLatestSaleTime": false,
+                    "posterUrl": "https://cdn.ticketmars.com/image/prod/20240601_15/17172134188849457.jpg",
+                    "showStatusTag": "预订中"
+                }
+            ]
+        }
+    }
+}

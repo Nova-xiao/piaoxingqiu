@@ -5,6 +5,7 @@ import datetime
 import time
 import logging
 from logging.handlers import RotatingFileHandler
+import random
 
 
 # 配置日志记录器
@@ -26,7 +27,7 @@ buy_count = config.buy_count
 audience_idx = config.audience_idx
 deliver_method = config.deliver_method
 seat_plan_id = ''
-session_id_exclude = []  # 被排除掉的场次
+session_id_exclude = ['6661afaa07b7810001eb0a4e']  # 被排除掉的场次
 price = 0
 
 while True:
@@ -37,10 +38,12 @@ while True:
             while True:
                 try:
                     sessions = request.get_sessions(show_id)
+                    # print(sessions)
                     if sessions:
                         for i in sessions:
                             if i["sessionStatus"] == 'ON_SALE' or (i["sessionStatus"] == 'PRE_SALE' and i["bizShowSessionId"] not in session_id_exclude):
                                 session_id = i["bizShowSessionId"]
+                                # print(session_id)
                                 logging.info(f"session_id: {session_id}")
                                 break
                         if session_id:
@@ -48,16 +51,18 @@ while True:
                         else:
                             logging.info("未获取到在售状态且符合购票数量需求的session_id")
                             time.sleep(1.4)
-                            session_id_exclude = []  # 再给自己一次机会，万一被排除掉的场次又放票了呢
+                            # session_id_exclude = []  # 再给自己一次机会，万一被排除掉的场次又放票了呢
                 except Exception as e:
                     logging.error(f"Error getting sessions: {e}")
-                    time.sleep(1.4)
+                    time.sleep(1 + random.randint(100)/100)
         else:
             # 检查指定的session_id是否在售
             while True:
                 try:
                     sessions = request.get_sessions(show_id)
+                    # print(sessions)
                     current_session = next((s for s in sessions if s["bizShowSessionId"] == session_id), None)
+                    # print(current_session)
                     if current_session and current_session["sessionStatus"] != 'PENDING':
                         logging.info(f"指定的session_id {session_id} 还未开始销售...")
                         break

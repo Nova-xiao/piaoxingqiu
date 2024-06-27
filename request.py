@@ -6,7 +6,7 @@ from config import token, sckey
 # 根据项目id获取所有场次和在售状态
 def get_sessions(show_id) -> list | None:
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Mobile Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
         'Content-Type': 'application/json'
     }
     url = "https://m.piaoxingqiu.com/cyy_gatewayapi/show/pub/v3/show/" + show_id + "/sessions_dynamic_data"
